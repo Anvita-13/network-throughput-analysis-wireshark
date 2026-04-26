@@ -20,7 +20,8 @@ The experiment involves generating traffic using command-based tools and analyzi
 
 ## Tools and Technologies Used
 
-- Wireshark (Packet Capture and Analysis)  
+- Wireshark (Packet Capture and Analysis)
+- Scapy (Packet Inspection and Traffic Analysis)  
 - hping3 (Traffic Generation Tool)  
 - GitHub (Repository Management)  
 
@@ -61,10 +62,11 @@ High Traffic:
 2. Begin packet capture  
 3. Execute traffic generation command  
 4. Allow capture to complete  
-5. Stop capture and save `.pcapng` file  
+5. Stop capture and save `.pcap` file  
 6. Apply filters (e.g., `tcp`)  
 7. Generate graphs using Wireshark tools  
 8. Analyze and interpret results  
+9. Perform supplementary packet inspection using Scapy scripts  
 
 ---
 
@@ -74,6 +76,7 @@ High Traffic:
 - TCP Throughput Graphs  
 - TCP Time-Sequence (Stevens) Graphs  
 - RTT Graphs  
+- Scapy-based packet inspection and protocol analysis  
 
 A total of 20 graphs were generated across different traffic levels.
 
@@ -91,16 +94,17 @@ A total of 20 graphs were generated across different traffic levels.
 
 ## Repository Contents
 
-- Packet capture files (`.pcapng`)  
+- Packet capture files (`.pcap`)  
 - Graph screenshots  
 - Architecture diagram  
 - Supporting files  
+- Scapy analysis scripts  
 
 ---
 
 ## Conclusion
 
-This project demonstrates how throughput can be analyzed using Wireshark under controlled traffic conditions. The results show that throughput is dynamic and depends on traffic load and TCP behavior. Graph-based analysis provides a clear understanding of network performance.
+This work demonstrates how throughput can be analyzed using Wireshark under controlled traffic conditions. The results show that throughput is dynamic and depends on traffic load and TCP behavior. Graph-based analysis provides a clear understanding of network performance.
 
 ---
 
