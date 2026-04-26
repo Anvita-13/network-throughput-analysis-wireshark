@@ -1,0 +1,11 @@
+Normal Traffic:
+sudo hping3 google.com -S -p 80 -i u500000 -c 120
+
+Low Traffic:
+sudo hping3 google.com -S -p 80 -i u100000 -c 300
+
+Medium Traffic:
+sudo hping3 google.com -S -p 80 -i u50000 -c 600
+
+High Traffic:
+sudo hping3 google.com -S -p 80 -i u10000 -c 1000
